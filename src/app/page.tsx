@@ -1,10 +1,8 @@
-import {Button} from "@/components/ui/button";
-
-function Home() {
-  return(
-      <div className="text-red-500 font-bold">
-        Hello World
-        <Button className="cursor-pointer" variant="destructive"> Click Here!</Button>
+async function Home() {
+    return(
+      <div>
+          {/*{JSON.stringify(users, null, 2)}*/}
+          hello world
       </div>
   )
 }
